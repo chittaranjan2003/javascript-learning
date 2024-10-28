@@ -17,8 +17,20 @@ function stringOperation(str) {
   var word = str.split(" ");
   var totalWord = word.length;
   var strDivision = strLength / totalWord;
-  console.log(` Given string division is :${strDivision}`);
+  console.log(`Given string division is :${strDivision}`);
   var strMul = strLength * totalWord;
-  console.log(` Given string Multiplication is :${strMul}`);
+  console.log(`Given string Multiplication is :${strMul}`);
 }
 stringOperation("I am Angular Developer");
+
+// var Name;
+// Name = 2;
+// console.log(Name);
+// Name="munu";
+// console.log(Name);
+// Name=3;
+// console.log(Name);
+// var $collage="Niis";
+// console.log( "collage name:" ,$collage);
+
+
