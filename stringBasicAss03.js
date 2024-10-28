@@ -6,3 +6,7 @@ var myHobbies3 = "Book Riding";
 console.log(`My first hobbies :${myHobbies1},My second hobbies is :${myHobbies2}, My 3rd hobbies is :${myHobbies3} `);
 var res = myHobbies1.length + myHobbies2.length + myHobbies3.length;
   console.log(`Sum of total number of character is ${res}`);
+var n1="5";
+var n2=5;
+var res= n1>=n2;
+console.log(res);
