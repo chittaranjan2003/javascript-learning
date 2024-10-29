@@ -42,3 +42,4 @@ function checkString2(str2, str3) {
 }
 checkString2("javaScript Language", "java");
 checkString2("programming Language", "programming");
+var age=2;
