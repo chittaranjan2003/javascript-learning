@@ -1,6 +1,6 @@
 var cityName="Delhi";
 console.log("City Name :",cityName);
-var bestFriend="munu";
+var bestFriend="Ram";
 console.log("best friend name :",bestFriend);
 var schoolName="Talakusuma high school";
 console.log( "School Name is", schoolName);
