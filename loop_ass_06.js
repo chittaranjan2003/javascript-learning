@@ -19,10 +19,10 @@ for (var index = 50; index >= 40; index--) {
     console.log(index);
 }*/
 
-/*for (var index = 10; index <= 100; index=index+10) {
+for (var index = 10; index <= 100; index=index+10) {
     
     console.log(index);
-}*/
+}
 
 for (var index = 100; index>= 10; index=index-10) {
     
