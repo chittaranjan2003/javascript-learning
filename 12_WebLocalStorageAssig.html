@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <h1>Web Local Storage </h1>
+    <script>
+        window.localStorage.setItem("Full Name","Chitta ranjan swain");
+        window.localStorage.setItem("City Name","Pune");
+        window.localStorage.setItem("Pin Code","754153");
+        window.localStorage.setItem("District Name","Kendra para");
+
+        let FullName=window.localStorage.getItem("Full Name");
+        console.log(FullName);
+        let cityName=window.localStorage.getItem("City Name");
+        console.log(cityName);
+        let pin=window.localStorage.getItem("Pin Code");
+        console.log(pin);
+        let District=window.localStorage.getItem("District Name");
+        console.log(District);
+        window.localStorage.removeItem("City Name");
+        console.log(window.localStorage.getItem("City Name"));
+        
+
+        
+        
+        
+    </script>
+    
+</body>
+</html>
